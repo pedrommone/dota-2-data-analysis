@@ -1,6 +1,6 @@
 library(readr)
-library(descr)
 
 dotaMatch <- read_csv("~/Desktop/dota-2-data-analysis/data/matches.csv")
 
-barplot(table(dotaMatch$`Ranked All Pick`))
+pie(table(dotaMatch$`-1`),
+    main="Grafico de jogos ganhos por time")
