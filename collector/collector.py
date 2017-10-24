@@ -75,8 +75,8 @@ if __name__=="__main__":
     api = dota2api.Initialise(os.getenv('DOTA2_KEY'))
     matchId = 2561608200
     ### matchSeqNum = 2242825642
-    stopNum = 1000
-    outFile = open('dotaMatch.out', 'a')
+    stopNum = 10000
+    outFile = open('dotaMatch2.out', 'a')
     writer = csv.writer(outFile)
 
     # serialLoop( api, matchId, stopNum, writer )
