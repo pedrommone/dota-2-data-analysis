@@ -1,6 +1,6 @@
 library(readr)
 
-dotaMatch <- read_csv("~/Desktop/dota-2-data-analysis/collector/dotaMatch.out")
+dotaMatch <- read_csv("~/Desktop/dota-2-data-analysis/data/matches_test.csv")
 
 hist(dotaMatch$`138`,
      main = "Distribuicao de jogos por regioes",
